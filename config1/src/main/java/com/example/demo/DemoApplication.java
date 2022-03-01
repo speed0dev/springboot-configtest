@@ -8,16 +8,19 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration;
 import org.springframework.boot.context.properties.ConfigurationProperties;
+
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.core.env.Environment;
 
 import javax.annotation.PostConstruct;
 
+//@EnableConfigServer
 @RequiredArgsConstructor	// 자동 생성 Autowirte 하게됨.
 @SpringBootApplication (
 	//exclude = WebMvcAutoConfiguration.class
 		// scanBasePackages = "com.example.demo"
+		//exclude = {WebMvcAutoConfiguration.class}
 )
 public class DemoApplication {
 

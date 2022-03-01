@@ -1,9 +1,35 @@
 
+debug: true
+
+
 my.height: 100
 my.weight: 400
 
 
 server.port: 8001
+
+management.endpoints.web.exposure.include: "*"
+
+
+
+
+
+server:
+  servlet:
+    context-path: /
+
+spring.error.whitelabel.enabled: false
+
+spring.cache.type: simple
+
+spring:
+  mvc:
+    view:
+      suffix: .html
+
+
+#spring.cloud.config.server.git.url: https://github.com/speed0dev/springboot-configtest/config1
+
 
 #spring.main.web-application-type: none
 
@@ -17,6 +43,9 @@ server.port: 8001
 # 재시작없이 수정가능
 ##spring.devtools.livereload.enabled: true
 ##spring.freemarker.cache: false
+
+
+
 
 devtools:
   livereload:
