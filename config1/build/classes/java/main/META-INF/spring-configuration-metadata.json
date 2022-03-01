@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "name": "my",
+      "type": "com.example.demo.properties.MyProperty",
+      "sourceType": "com.example.demo.properties.MyProperty"
+    }
+  ],
+  "properties": [
+    {
+      "name": "my.height",
+      "type": "java.lang.Integer",
+      "description": "제키 입니다.",
+      "sourceType": "com.example.demo.properties.MyProperty"
+    }
+  ],
+  "hints": []
+}

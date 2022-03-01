@@ -1,0 +1,25 @@
+
+my.height: 100
+my.weight: 400
+
+
+server.port: 8001
+
+#spring.main.web-application-type: none
+
+#debug: true
+
+#logging.file.name: "demo.log"
+
+#spring.datasource.driver-class-name: ""
+#spring.datasource.username: "aaa"
+
+# 재시작없이 수정가능
+##spring.devtools.livereload.enabled: true
+##spring.freemarker.cache: false
+
+devtools:
+  livereload:
+    enabled: true
+  restart:
+    enabled: true
